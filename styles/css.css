@@ -1,0 +1,329 @@
+*{
+
+margin: 0;
+padding: 0;
+text-decoration: none;
+list-style-type:none;
+box-sizing: border-box;
+
+}
+
+body{
+    background-image:url(../bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 1024px;
+    
+}
+
+.div1{
+    width: 750px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    margin-left: 600px;
+    margin-top: 58px;
+    text-align: center;
+    padding-top: 22px;
+  
+  
+}
+
+.div1 p{
+font-size: 36px;
+color: rgb(255, 255, 255);
+
+
+
+}
+
+
+form{
+    width: 750px;
+    height: 760px;
+    /* background-color: antiquewhite; */
+    opacity: 0.8;
+    margin-left: 600PX;
+    margin-top: 62PX;
+   
+}
+
+form .input1 {
+width: 750px;
+height: 70px;
+border-radius: 10px;
+outline: none;
+border-bottom: 2px solid white;
+background-color: rgba(255, 255, 255, 0.5);
+
+}
+form label{
+  font-weight: bold;
+}
+
+form .input2{
+    width: 750px;
+    height: 70px;
+    border-radius: 10px;
+   margin-top: 38px;
+   outline: none;
+   border-bottom: 2px solid white;
+   background-color: rgba(255, 255, 255, 0.5);
+    
+    }
+    form .input3{
+        width: 750px;
+        height: 70px;
+        border-radius: 10px;
+       margin-top: 24px;
+       outline: none;
+       border-bottom: 2px solid white;
+       background-color: rgba(255, 255, 255, 0.5);
+        
+        }
+
+        form .p1{
+
+font-size: 14px;
+color: rgb(0, 0, 0);
+
+font-weight: bold;
+margin-top: 12px;
+
+
+
+        }
+
+        form .textarea{
+width: 750px;
+height: 152px;
+margin-top: 12px;
+border-radius: 10px;
+outline: none;
+border-bottom: 2px solid white;
+background-color: rgba(255, 255, 255, 0.5);
+
+        }
+
+  form .p2{
+font-size: 14px;
+margin-top: 18px;
+color: black;
+font-weight: bold;
+
+
+  } 
+
+  form .chek1{
+    position: relative;
+    display: block;
+
+margin-top: 46px;
+margin-left: 82px;
+width: 40px;
+height: 40px;
+
+outline: none;
+border-bottom: 2px solid white;
+background-color: rgba(255, 255, 255, 0.5);
+
+
+  }
+
+  .form .chek1::before{
+content: "";
+position: absolute;
+width: 39px;
+height: 39px;
+border-radius: 1px solid black;
+background-color: blueviolet;
+top: -40px;
+left: 10px;
+
+
+  }
+
+
+
+
+
+
+      form .chek11{
+        display: block;
+ margin-left: 146px;
+ margin-top: -30px;
+ font-weight: bold;
+      
+      }
+
+
+      
+  form .chek2{
+    display: block;
+        margin-top: -28px;
+        margin-left: 572px;
+        width: 40px;
+        height: 40px;
+        border-bottom: 2px solid white;
+        background-color: rgba(255, 255, 255, 0.5);
+       
+        
+          }
+
+          form .chek22{
+
+            display: block;
+            margin-top: -32px;
+            margin-left: 637px;
+            font-weight: bold;
+          }
+
+
+
+  
+  form .submit{
+
+width: 750px;
+height: 70px;
+margin-top: 42px;
+border-radius: 10px;
+background-color: rgba(1, 175, 140, 1);
+border-bottom: 4px solid rgb(0, 0, 0);
+cursor: pointer;
+background-color: rgba(255, 255, 255, 0.5);
+
+
+  }        
+
+
+
+
+  .contact {
+    margin: 50px  auto;
+     width: 500px;
+    height: 390px;
+    background-color:#000000;
+    text-align: center;
+    padding: 40px;
+  }
+
+  .contact p{
+    color:aliceblue;
+   
+    
+  }
+
+  .diviko1{
+    width: 500px;
+    height: 70px;
+    background-color: rgba(245, 186, 34, 1);
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .diviko1 p{
+    padding-top: 22px;
+  }
+
+  .diviko1 p a{
+    color:  rgba(0, 0, 0, 1)
+  }
+
+
+  .cont{
+    margin-top: 200px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+  }
+
+
+ .cont .box{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: -30px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    border-top: 5px solid rgb(54, 0, 249);
+    animation: bedisborbalitrialebs 2s infinite;
+  }
+
+  @keyframes bedisborbalitrialebs {
+    form{
+      transform: rotate(0deg);
+    }
+    to{
+      transform: rotate(360deg);
+    }
+  }
+
+  .cont .box::before{
+ content:'';
+ position: absolute;
+ top: 12px;
+ right: 12px;
+ 
+ width: 18px;
+ height: 18px;
+ border-radius: 50%;
+ background: rgb(88, 249, 255);
+ box-shadow: 0 0 0 5px rgb(39, 29, 172),
+ 0 0 0 10px rgb(42, 42, 191),
+ 0 0  20px rgb(121, 76, 227);
+
+
+
+  }
+
+  .cont .box:nth-child(2){
+
+    animation: bedisborbalitrialebs2 2s infinite;
+  }
+  
+  
+  
+
+
+.cont .box:nth-child(2)::before
+ { content:'';
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: rgb(2, 107, 149);
+  box-shadow: 0 0 0 5px rgb(99, 89, 242),
+  0 0 0 10px rgb(130, 130, 238),
+  0 0  20px rgb(197, 175, 248);
+ 
+ 
+ }
+ 
+   
+
+@keyframes bedisborbalitrialebs2 {
+ 
+  0%{
+transform: rotate(3deg);
+
+  }
+  100%{
+
+transform: rotate(360deg);
+
+  }
+
+}
+
+
+  .cont .box:nth-child(3){
+    position: absolute;
+    top:-66.66px;
+  }
+  
